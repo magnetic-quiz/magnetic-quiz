@@ -6,7 +6,7 @@ import { Navbar } from "../components/Navbar";
 import { LeftSidebar } from "../components/LeftSidebar";
 import { RightSidebar } from "../components/RightSidebar";
 import { MainContent } from "../components/MainContent";
-import { Question } from "../types/question";
+import { Question } from "../../types/question";
 
 export default function CreateQuiz() {
   const [questions, setQuestions] = useState<Question[]>([
